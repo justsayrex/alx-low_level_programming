@@ -6,7 +6,7 @@
  * Description: prints all lowercase letters
  * Return: Always(0).
  */
-int _islower(int g)
+int _islower(int c)
 {
-	return (g >= 'a' && g <= 'z');
+	return (c >= 'a' && c <= 'z');
 }
