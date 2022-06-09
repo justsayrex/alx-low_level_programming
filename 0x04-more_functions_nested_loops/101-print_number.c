@@ -1,8 +1,8 @@
 #include "main.h"
-
 /**
- * print_number - prints an integer n
- * @n: integer to be printed 
+ * print_number - prints # using _putchar function
+ * @n: the integer to print
+ * Return: void
  */
 
 void print_number(int n)
@@ -16,6 +16,7 @@ void print_number(int n)
 		ones *= -1, copy *= -1, n *= -1;
 		_putchar('-');
 	}
+
 	if (copy > 0)
 	{
 		while (copy / 10 != 0)
@@ -32,3 +33,4 @@ void print_number(int n)
 	}
 	_putchar('0' + ones);
 }
+		
