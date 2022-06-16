@@ -4,7 +4,7 @@
  * *_strcat - function commute srtings
  * @dest: param pointer to a char
  * @src: param pointer to a char
- * Return: void
+ * Return: return value to dest
  */
 
 void char *_strcat(char *dest, char *src)
@@ -17,6 +17,7 @@ void char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	j = 0;
 	while (src[j] != '\0')
 	{
@@ -24,6 +25,7 @@ void char *_strcat(char *dest, char *src)
 		j++;
 		i++;
 	}
+	
 	dest[i] = '\0';
 	return (dest);
 }
