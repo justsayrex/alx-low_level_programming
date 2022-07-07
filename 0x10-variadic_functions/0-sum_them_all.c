@@ -1,10 +1,6 @@
-/*
- * File: 0-sum_them_all.c
- * Auth:Okorie Destiny Rex
- */
-
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
  * sum_them_all - A function that sums all its parameters.
