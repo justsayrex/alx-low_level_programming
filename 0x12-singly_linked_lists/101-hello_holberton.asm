@@ -6,7 +6,7 @@
 extern printf
 
 section .text
-   lobal main
+   global main
 
 main:
 	push rbp
